@@ -1,5 +1,8 @@
 function reverseString(str) {
-  // type your code here
+  let arr = str.split('')
+  let revArr = arr.reverse()
+  let revStr = revArr.join('')
+  return revStr
 }
 
 if (require.main === module) {
@@ -17,3 +20,7 @@ module.exports = reverseString;
 
 // Please add your pseudocode to this file
 // And a written explanation of your solution
+
+//take the string and turn it into an array (split)
+//reverse the array
+//turn the array into a string (join?)
